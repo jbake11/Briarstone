@@ -1,0 +1,413 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 11/26/2014, 1:38:31 AM
+    Author     : Jeff
+*/
+
+.form{
+    margin-bottom:  10px;
+}
+
+a{
+    color: #676767;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: #167bbf;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img{
+    width: 100%;
+    /*    height: 100%;*/
+    margin-left: auto;
+    margin-right: -15px;
+
+}
+
+.container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-top: 0px;
+
+}
+
+.carousel {
+    border: 1px solid transparent;
+    overflow: visible;
+}
+
+#sliderWrite{
+    /*    max-width: 100%;*/
+    margin-top: -78px;
+
+}
+
+.transp{
+    z-index: 999;
+}
+
+#bodywrap{
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+
+.thumb-table{
+    display: table;
+
+}
+
+.thumb-wrap{
+    display: table-cell;
+    height: 200px;
+
+}
+
+.thumb-wrap img{
+    white-space: nowrap;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.nwrap{
+    white-space: nowrap;
+}
+
+
+
+li {
+    /*    font-size: 18px;*/
+}
+
+.address {
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+
+}
+
+body {
+    color: #676767;
+
+}
+
+h1{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1em;
+}
+
+.textAdjust{
+    font-size: 16px;
+
+}
+
+.footerBar{
+    font-size: 18px;
+    background-color: #b9ae76;
+    min-height: 70px;
+    padding-top: 10px;
+
+}
+
+.indexContent{
+    margin-top: 40px;
+}
+
+
+
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+
+#equipment a{
+    vertical-align: super;
+    margin-left: 53px;
+}
+
+#products a{
+    vertical-align: super;
+    margin-left: 42px;
+}
+
+#employment a{
+    vertical-align: super;
+    margin-left: -9px;
+}
+
+#equipment a:hover, #products a:hover, #employment a:hover{
+    color: #167bbf
+
+}
+
+#equipment ul, #products ul, #employment ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+#equipment{
+    padding-left: 0;
+    background: url('/images/doorknocker-icon.png') no-repeat;
+    margin-left: -39px;
+    list-style-type: none;
+    margin-top: -39px;
+    font-size: 2em;
+}
+
+#products{
+    padding-left: 0;
+    background: url('/images/construction-icon.png') no-repeat;
+    margin-left: -52px;
+    list-style-type: none;
+    margin-top: -39px;
+    font-size: 2em;
+}
+
+#employment{
+    padding-left: 0;
+    list-style-image: url('/images/builder-icon.png');
+    list-style-type: none;
+    margin-top: -42px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 2em;
+}
+
+#footer hr{
+    margin-top: -2px;
+    background-color: white;
+    height: 1px;
+}
+
+.footText{
+    color: white;
+    font-size: 1em;
+    margin-top: -15px;
+}
+
+.footTitle{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 2.5px;
+}
+
+.footCopyrightText{
+    font-size: 12px;
+    color: white;
+    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.footBadgeSpace{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.textPadding{
+    margin-left: 20px;
+}
+.logoAdjust{
+    margin-top: -15px;
+    margin-left: -30px;
+
+}
+
+.underNavIndex{
+    padding-top: 85px;
+
+}
+
+.underNavElse{
+    padding-top: 15px;
+
+}
+
+@media (max-width: 767px) {
+    #equipment, #employment, #products{
+        margin-top: 50px;
+    }
+
+    #footer{
+        background-color: #30579a;
+        margin-top: 80px;
+    }
+
+    #leftnav{
+        margin-bottom: 80px;
+        padding-left: 80px;
+    }
+
+    #centernav{
+        margin-bottom: 80px;
+        padding-left: 50px;
+    }
+
+    #rightnav{
+        margin-bottom: 80px;
+    }
+
+    .transp img{
+        z-index: 999;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    #leftnav li{
+        padding-bottom: 10px;
+    }
+    #centernav li{
+        padding-bottom: 10px;
+    }
+    #rightnav li{
+        padding-bottom: 10px;
+    }
+
+    #leftnav {
+        margin-top: 30px;
+
+    }
+
+    #centernav {
+        margin-top: 30px;
+
+    }
+
+    #rightnav {
+        margin-top: 30px;
+        margin-left: -50px;
+
+    }
+
+    #leftnav li, #rightnav li{
+        margin-left: 40px;
+    }
+
+    #equipAdjust{
+        margin-left: -10px;
+    }
+
+
+    #footer{
+        background-color: #30579a;
+        margin-top: 80px;
+    }
+
+    .arrangeThumbs img{
+        height: 85px;
+        width:  150px;
+
+    }
+
+}
+
+@media (min-width: 992px) {
+    #footer{
+        background-color: #30579a;
+        margin-top: 80px;
+    }
+
+    .arrangeThumbs{
+        margin-top: 50px;
+    }
+
+    .arrangeThumbs img{
+        height: 125px;
+        width:  190px;
+    }
+
+    #leftnav li{
+        margin-right: 31px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #rightnav li{
+        margin-left: 31px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #leftnav{
+        float: right;
+        margin-top: 110px;
+        margin-right: 31px;
+    }
+
+    #rightnav{
+        float: left;
+        margin-top: 110px;
+        margin-left: 31px;
+    }
+
+}
+
+@media(max-width: 1289px){
+    @media(min-width: 993px){
+        #leftnav li{
+            margin-right: 20px;
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+
+        #rightnav li{
+            margin-left: 10px;
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+
+        #leftnav{
+            float: right;
+            margin-top: 110px;
+            margin-right: 31px;
+        }
+
+        #rightnav{
+            float: left;
+            margin-top: 110px;
+            margin-left: 20px;
+        }
+
+    }
+}
