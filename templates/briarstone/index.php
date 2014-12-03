@@ -66,7 +66,7 @@ $sitename = $app->get('sitename');
                     </button>
                     <div class="container">
                         <a class="navbar-brand" href="/">
-                            <jdoc:include type="modules" name="logo" style="none" />
+                            <jdoc:include type="modules" name="logo" style="xhtml" />
                         </a>
                     </div>
                     <div class="navbar-collapse collapse">
