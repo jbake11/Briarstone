@@ -157,27 +157,27 @@ h3{
 
 
 
-#equipment a{
+#services a{
     vertical-align: super;
     margin-left: 53px;
 }
 
-#products a{
+#residentialgallery a{
     vertical-align: super;
     margin-left: 42px;
 }
 
-#employment a{
+#aboutthebuilder a{
     vertical-align: super;
     margin-left: -9px;
 }
 
-#equipment a:hover, #products a:hover, #employment a:hover{
+#services a:hover, #residentialgallery a:hover, #aboutthebuilder a:hover{
     color: #167bbf
 
 }
 
-#equipment ul, #products ul, #employment ul{
+#services ul, #residentialgallery ul, #aboutthebuilder ul{
     margin: 0;
     padding: 0;
 
