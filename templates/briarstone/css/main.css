@@ -190,182 +190,211 @@ h3{
     list-style-type: none;
     margin-top: -39px;
     font-size: 2em;
+}
 
-    #residentialgallery{
-        padding-left: 0;
-        background: url('/images/construction-icon.png') no-repeat;
-        margin-left: -52px;
-        list-style-type: none;
-        margin-top: -39px;
-        font-size: 2em;
+#residentialgallery{
+    padding-left: 0;
+    background: url('/images/construction-icon.png') no-repeat;
+    margin-left: -52px;
+    list-style-type: none;
+    margin-top: -39px;
+    font-size: 2em;
+}
+
+#aboutthebuilder{
+    padding-left: 0;
+    list-style-image: url('/images/builder-icon.png');
+    list-style-type: none;
+    margin-top: -42px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 2em;
+}
+
+#footer hr{
+    margin-top: -2px;
+    background-color: white;
+    height: 1px;
+}
+
+.footText{
+    color: white;
+    font-size: 1em;
+    margin-top: -15px;
+}
+
+.footTitle{
+    color: white;
+    font-size: 2em;
+    margin-bottom: 2.5px;
+}
+
+.footCopyrightText{
+    font-size: 12px;
+    color: white;
+    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.footBadgeSpace{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.textPadding{
+    margin-left: 20px;
+}
+.logoAdjust{
+    margin-top: -15px;
+    margin-left: -30px;
+
+}
+
+.underNavIndex{
+    padding-top: 85px;
+
+}
+
+.underNavElse{
+    padding-top: 15px;
+
+}
+
+@media (max-width: 767px) {
+    #equipment, #employment, #products{
+        margin-top: 50px;
     }
 
-    #aboutthebuilder{
-        padding-left: 0;
-        list-style-image: url('/images/builder-icon.png');
-        list-style-type: none;
-        margin-top: -42px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        font-size: 2em;
+    #footer{
+        background-color: #30579a;
+        margin-top: 80px;
     }
 
-    #footer hr{
-        margin-top: -2px;
-        background-color: white;
-        height: 1px;
+    #leftnav{
+        margin-bottom: 80px;
+        padding-left: 80px;
     }
 
-    .footText{
-        color: white;
-        font-size: 1em;
-        margin-top: -15px;
+    #centernav{
+        margin-bottom: 80px;
+        padding-left: 50px;
     }
 
-    .footTitle{
-        color: white;
-        font-size: 2em;
-        margin-bottom: 2.5px;
+    #rightnav{
+        margin-bottom: 80px;
     }
 
-    .footCopyrightText{
-        font-size: 12px;
-        color: white;
-        margin-top: 20px;
-        margin-top: 10px;
+    .transp img{
+        z-index: 999;
+        padding-bottom: 50px;
     }
 
-    .footBadgeSpace{
-        padding-left: 10px;
+}
+
+@media (max-width: 992px) {
+
+    #leftnav li{
+        padding-bottom: 10px;
+    }
+    #centernav li{
+        padding-bottom: 10px;
+    }
+    #rightnav li{
+        padding-bottom: 10px;
+    }
+
+    #leftnav {
+        margin-top: 30px;
+
+    }
+
+    #centernav {
+        margin-top: 30px;
+
+    }
+
+    #rightnav {
+        margin-top: 30px;
+        margin-left: -50px;
+
+    }
+
+    #leftnav li, #rightnav li{
+        margin-left: 40px;
+    }
+
+    #equipAdjust{
+        margin-left: -10px;
+    }
+
+
+    #footer{
+        background-color: #30579a;
+        margin-top: 80px;
+    }
+
+    .arrangeThumbs img{
+        height: 85px;
+        width:  150px;
+
+    }
+
+}
+
+@media (min-width: 992px) {
+    #footer{
+        background-color: #30579a;
+        margin-top: 80px;
+    }
+
+    .arrangeThumbs{
+        margin-top: 50px;
+    }
+
+    .arrangeThumbs img{
+        height: 125px;
+        width:  190px;
+    }
+
+    #leftnav li{
+        margin-right: 31px;
         padding-right: 10px;
-
+        padding-left: 10px;
     }
 
-    .textPadding{
-        margin-left: 20px;
-    }
-    .logoAdjust{
-        margin-top: -15px;
-        margin-left: -30px;
-
+    #rightnav li{
+        margin-left: 31px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
-    .underNavIndex{
-        padding-top: 85px;
-
+    #leftnav{
+        float: right;
+        margin-top: 110px;
+        margin-right: 31px;
     }
 
-    .underNavElse{
-        padding-top: 15px;
-
+    #rightnav{
+        float: left;
+        margin-top: 110px;
+        margin-left: 31px;
     }
 
-    @media (max-width: 767px) {
-        #equipment, #employment, #products{
-            margin-top: 50px;
-        }
+}
 
-        #footer{
-            background-color: #30579a;
-            margin-top: 80px;
-        }
-
-        #leftnav{
-            margin-bottom: 80px;
-            padding-left: 80px;
-        }
-
-        #centernav{
-            margin-bottom: 80px;
-            padding-left: 50px;
-        }
-
-        #rightnav{
-            margin-bottom: 80px;
-        }
-
-        .transp img{
-            z-index: 999;
-            padding-bottom: 50px;
-        }
-
-    }
-
-    @media (max-width: 992px) {
-
+@media(max-width: 1289px){
+    @media(min-width: 993px){
         #leftnav li{
-            padding-bottom: 10px;
-        }
-        #centernav li{
-            padding-bottom: 10px;
-        }
-        #rightnav li{
-            padding-bottom: 10px;
-        }
-
-        #leftnav {
-            margin-top: 30px;
-
-        }
-
-        #centernav {
-            margin-top: 30px;
-
-        }
-
-        #rightnav {
-            margin-top: 30px;
-            margin-left: -50px;
-
-        }
-
-        #leftnav li, #rightnav li{
-            margin-left: 40px;
-        }
-
-        #equipAdjust{
-            margin-left: -10px;
-        }
-
-
-        #footer{
-            background-color: #30579a;
-            margin-top: 80px;
-        }
-
-        .arrangeThumbs img{
-            height: 85px;
-            width:  150px;
-
-        }
-
-    }
-
-    @media (min-width: 992px) {
-        #footer{
-            background-color: #30579a;
-            margin-top: 80px;
-        }
-
-        .arrangeThumbs{
-            margin-top: 50px;
-        }
-
-        .arrangeThumbs img{
-            height: 125px;
-            width:  190px;
-        }
-
-        #leftnav li{
-            margin-right: 31px;
-            padding-right: 10px;
-            padding-left: 10px;
+            margin-right: 20px;
+            padding-right: 0px;
+            padding-left: 0px;
         }
 
         #rightnav li{
-            margin-left: 31px;
-            padding-right: 10px;
-            padding-left: 10px;
+            margin-left: 10px;
+            padding-right: 0px;
+            padding-left: 0px;
         }
 
         #leftnav{
@@ -377,36 +406,8 @@ h3{
         #rightnav{
             float: left;
             margin-top: 110px;
-            margin-left: 31px;
+            margin-left: 20px;
         }
 
     }
-
-    @media(max-width: 1289px){
-        @media(min-width: 993px){
-            #leftnav li{
-                margin-right: 20px;
-                padding-right: 0px;
-                padding-left: 0px;
-            }
-
-            #rightnav li{
-                margin-left: 10px;
-                padding-right: 0px;
-                padding-left: 0px;
-            }
-
-            #leftnav{
-                float: right;
-                margin-top: 110px;
-                margin-right: 31px;
-            }
-
-            #rightnav{
-                float: left;
-                margin-top: 110px;
-                margin-left: 20px;
-            }
-
-        }
-    }
+}
