@@ -103,22 +103,13 @@ $sitename = $app->get('sitename');
         <div class='container indexContent'>
             <div class='row'>
                 <div class='col-sm-4'>
-                    <ul>
-                        <li id='equipment'><a href='equip.php'>Equipment</a></li>
-                    </ul>
-                    Bacon ipsum dolor amet prosciutto ham short loin beef ribs. Pork loin bacon ham shank, cupim filet mignon kevin tri-tip strip steak fatback tenderloin beef tongue doner. Ribeye ham hock pork belly, filet mignon turducken sirloin turkey bresaola. Shankle meatloaf beef ribs, hamburger turducken prosciutto cupim short ribs shoulder. Sirloin beef tenderloin cupim, bacon pig boudin.
+                    <jdoc:include type="modules" name="bottom-1" style="xhtml" />
                 </div>
                 <div class='col-sm-4'>
-                    <ul>
-                        <li id='products'><a href='photo.php'>Product Samples</a></li>
-                    </ul>
-                    Bacon ipsum dolor amet prosciutto ham short loin beef ribs. Pork loin bacon ham shank, cupim filet mignon kevin tri-tip strip steak fatback tenderloin beef tongue doner. Ribeye ham hock pork belly, filet mignon turducken sirloin turkey bresaola. Shankle meatloaf beef ribs, hamburger turducken prosciutto cupim short ribs shoulder. Sirloin beef tenderloin cupim, bacon pig boudin.
+                    <jdoc:include type="modules" name="bottom-2" style="xhtml" />
                 </div>
                 <div class='col-sm-4'>
-                    <ul>
-                        <li id='employment'><a href='employ.php'>Employment</a></li>
-                    </ul>
-                    Bacon ipsum dolor amet prosciutto ham short loin beef ribs. Pork loin bacon ham shank, cupim filet mignon kevin tri-tip strip steak fatback tenderloin beef tongue doner. Ribeye ham hock pork belly, filet mignon turducken sirloin turkey bresaola. Shankle meatloaf beef ribs, hamburger turducken prosciutto cupim short ribs shoulder. Sirloin beef tenderloin cupim, bacon pig boudin.
+                    <jdoc:include type="modules" name="bottom-3" style="xhtml" />
                 </div>
             </div>
         </div>
