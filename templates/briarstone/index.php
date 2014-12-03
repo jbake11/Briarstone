@@ -175,15 +175,15 @@ $sitename = $app->get('sitename');
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class='img-responsive center-block' src="/images/slider/panel_1.jpg" />
+                            <img class='img-responsive center-block' src="templates/Briarstone/images/slider/panel_1.jpg" />
                         </div>
 
                         <div class="item">
-                            <img class='img-responsive center-block' src="/images/slider/panel_2.jpg" />
+                            <img class='img-responsive center-block' src="templates/Briarstone/images/slider/panel_2.jpg" />
                         </div>
 
                         <div class="item">
-                            <img class='img-responsive center-block' src="/images/slider/panel_3.jpg" />
+                            <img class='img-responsive center-block' src="templates/Briarstone/images/slider/panel_3.jpg" />
                         </div>
                     </div>
 
