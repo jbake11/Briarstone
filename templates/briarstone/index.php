@@ -62,138 +62,38 @@ $sitename = $app->get('sitename');
         </div>
 
 
+        <div  class="container-fluid" id="slider-wrap" >
+            <div class="row ">
+                <jdoc:include type="modules" name="slider" style="xhtml" />
+            </div>
+        </div>
+
 
         <div id="bodywrap" class='container'>
             <div class='row'>
                 <div class='col-lg-12'>
-
-
                     <jdoc:include type="message" />
                     <jdoc:include type="component" />
-
-
-                </div>
-            </div>
-        </div>
-        <script type="text/css">
-
-            .transition-timer-carousel .carousel-caption {
-                background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 4%, rgba(0,0,0,0.5) 32%, rgba(0,0,0,1) 100%); /* FF3.6+ */
-                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(4%,rgba(0,0,0,0.1)), color-stop(32%,rgba(0,0,0,0.5)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
-                background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
-                background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
-                background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* IE10+ */
-                background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.1) 4%,rgba(0,0,0,0.5) 32%,rgba(0,0,0,1) 100%); /* W3C */
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
-                width: 100%;
-                left: 0px;
-                right: 0px;
-                bottom: 0px;
-                text-align: left;
-                padding-top: 5px;
-                padding-left: 15%;
-                padding-right: 15%;
-            }
-            .transition-timer-carousel .carousel-caption .carousel-caption-header {
-                margin-top: 10px;
-                font-size: 24px;
-            }
-
-            @media (min-width: 970px) {
-                /* Lower the font size of the carousel caption header so that our caption
-                doesn't take up the full image/slide on smaller screens */
-                .transition-timer-carousel .carousel-caption .carousel-caption-header {
-                    font-size: 36px;
-                }
-            }
-            .transition-timer-carousel .carousel-indicators {
-                bottom: 0px;
-                margin-bottom: 5px;
-            }
-            .transition-timer-carousel .carousel-control {
-                z-index: 11;
-            }
-            .transition-timer-carousel .transition-timer-carousel-progress-bar {
-                height: 5px;
-                background-color: #5cb85c;
-                width: 0%;
-                margin: -5px 0px 0px 0px;
-                border: none;
-                z-index: 11;
-                position: relative;
-            }
-            .transition-timer-carousel .transition-timer-carousel-progress-bar.animate{
-                /* We make the transition time shorter to avoid the slide transitioning
-                before the timer bar is "full" - change the 4.25s here to fit your
-                carousel's transition time */
-                -webkit-transition: width 4.25s linear;
-                -moz-transition: width 4.25s linear;
-                -o-transition: width 4.25s linear;
-                transition: width 4.25s linear;
-            }
-
-        </script>
-
-
-        <div class='underNavIndex clearfix hidden-lg hidden-md hidden-sm'>
-            <br /><br />
-        </div>
-
-        <!--id='sliderWrite'-->
-
-        <div  class="container-fluid" >
-            <div class="row ">
-                <!-- The carousel -->
-                <div id="transition-timer-carousel" class=" carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#transition-timer-carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#transition-timer-carousel" data-slide-to="1"></li>
-                        <li data-target="#transition-timer-carousel" data-slide-to="2"></li>
-                    </ol>
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class='img-responsive center-block' src="templates/Briarstone/images/slider/panel_1.jpg" />
-                        </div>
-
-                        <div class="item">
-                            <img class='img-responsive center-block' src="templates/Briarstone/images/slider/panel_2.jpg" />
-                        </div>
-
-                        <div class="item">
-                            <img class='img-responsive center-block' src="templates/Briarstone/images/slider/panel_3.jpg" />
-                        </div>
-                    </div>
-
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#transition-timer-carousel" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a class="right carousel-control" href="#transition-timer-carousel" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-
-                    <!--             Timer "progress bar"
-                                <hr class="transition-timer-carousel-progress-bar animate" />-->
                 </div>
             </div>
         </div>
 
         <div class="container indexContent">
             <div class="row">
-                <div class="col-lg-9 col-md-9 col-sm-9">
-                    <h1>Knowledge. Equipment. Experience.</h1>
-
-                    <h3 class='textAdjust'>Bacon ipsum dolor amet prosciutto ham short loin beef ribs. Pork loin bacon ham shank, cupim filet mignon kevin tri-tip strip steak.</h3>
-
-                    Bacon ipsum dolor amet prosciutto ham short loin beef ribs. Pork loin bacon ham shank, cupim filet mignon kevin tri-tip strip steak fatback tenderloin beef tongue doner. Ribeye ham hock pork belly, filet mignon turducken sirloin turkey bresaola. Shankle meatloaf beef ribs, hamburger turducken prosciutto cupim short ribs shoulder. Sirloin beef tenderloin cupim, bacon pig boudin.
-
-                </div>
-                <div class='col-lg-3 col-md-3 col-sm-3'>
-                    <a href='history.php'><img class='img-responsive' src='images/company-history.jpg'></a>
-                </div>
+                <?php if ($this->countModules('rightsidebar')) : ?>
+                    <div class="col-lg-9 col-md-9 col-sm-9">
+                        <jdoc:include type="message" />
+                        <jdoc:include type="component" />
+                    </div>
+                    <div class='col-lg-3 col-md-3 col-sm-3'>
+                        <jdoc:include type="modules" name="rightsidebar" style="xhtml" />
+                    </div>
+                <?php else: ?>
+                    <div class="col-lg-12">
+                        <jdoc:include type="message" />
+                        <jdoc:include type="component" />
+                    </div>
+                <?php endif; ?>
             </div>
         </div>
 
