@@ -27,6 +27,8 @@
 	<positions>
 		<position>logo</position>
 		<position>debug</position>
+		<position>rightsidebar</position>
+		<position>slider</position>
 		<position>mainmenu</position>
 	</positions>
 	<languages folder="language">
