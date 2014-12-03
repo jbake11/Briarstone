@@ -24,17 +24,6 @@ $layout = $app->input->getCmd('layout', '');
 $task = $app->input->getCmd('task', '');
 $itemid = $app->input->getCmd('Itemid', '');
 $sitename = $app->get('sitename');
-
-
-// Add JavaScript Frameworks
-JHtml::_('bootstrap.framework');
-$doc->addScript('templates/' . $this->template . '/js/template.js');
-
-// Add Stylesheets
-$doc->addStyleSheet('templates/' . $this->template . '/css/template.css');
-
-// Load optional RTL Bootstrap CSS
-JHtml::_('bootstrap.loadCss', false, $this->direction);
 ?>
 <!DOCTYPE html >
 <html>
@@ -60,56 +49,7 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
     </head>
 
     <body>
-        <div class='container-fluid hidden-xs hidden-sm'>
-            <div class='row'>
-                <div  class='containter col-lg-5 col-md-5'>
-                    <ul id='leftnav' class="nav nav-pills">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="equip.php">Equipment & Services</a></li>
-                        <li><a href="history.php">History</a></li>
-                    </ul>
-                </div>
 
-                <div align='center' class='container col-lg-2 col-md-2'>
-                    <a href="index.php"><img src='images/logo.png'></a>
-                </div>
-
-                <div  class='containter col-lg-5 col-md-5'>
-                    <ul id='rightnav' class="nav nav-pills">
-                        <li><a href="photo.php">Photo Gallery</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                        <li><a href="employ.php">Employment</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class='container hidden-lg hidden-md hidden-xs'>
-            <div class='row'>
-                <div class='col-xs-2 col-sm-2 transp'>
-                    <a href="index.php"><img class='image-responsive' src='images/logo.png'></a>
-                </div>
-                <div class='col-xs-3 col-sm-3 transp'>
-                    <ul id='leftnav' class="nav nav-pills">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="photo.php"><br />Photo Gallery</a></li>
-                    </ul>
-                </div>
-                <div class='col-xs-3 col-sm-3 transp'>
-                    <ul id='centernav' class="nav nav-pills">
-                        <li><a class='' href="equip.php">Equipment & Services</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                    </ul>
-                </div>
-
-                <div class='col-xs-3 col-sm-3 '>
-                    <ul id='rightnav' class="nav nav-pills">
-                        <li><a href="history.php">History</a></li>
-                        <li><a href="employ.php"><br />Employment</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
 
         <!-- Fixed navbar -->
         <div class="smNavAdjust hidden-lg hidden-md hidden-sm navbar navbar-default navbar-fixed-top" role="navigation">
@@ -125,7 +65,9 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
                         <span class="icon-bar"></span>
                     </button>
                     <div class="container">
-                        <a class="navbar-brand" href="index.php"><img class='logoAdjust img-responsive' src="images/imdlogo-sm.png"></a>
+                        <a class="navbar-brand" href="/">
+                            <jdoc:include type="modules" name="logo" style="none" />
+                        </a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
