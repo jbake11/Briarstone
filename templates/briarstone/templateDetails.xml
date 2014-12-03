@@ -30,9 +30,14 @@
 		<position>rightsidebar</position>
 		<position>slider</position>
 		<position>mainmenu</position>
-		<position>bottom-1</position>
-		<position>bottom-2</position>
-		<position>bottom-3</position>
+		<position>contentbottom-1</position>
+		<position>contentbottom-2</position>
+		<position>contentbottom-3</position>
+		<position>footer-1</position>
+		<position>footer-2</position>
+		<position>footer-3</position>
+		<position>copyright</position>
+		<position>socialbar</position>
 	</positions>
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.tpl_briarstone.ini</language>
