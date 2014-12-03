@@ -185,7 +185,7 @@ h3{
 
 #services{
     padding-left: 0;
-    background: url('/images/doorknocker-icon.png') no-repeat;
+    background: url('/templates/Briarstone/images/doorknocker-icon.png') no-repeat;
     margin-left: -39px;
     list-style-type: none;
     margin-top: -39px;
@@ -194,7 +194,7 @@ h3{
 
 #residentialgallery{
     padding-left: 0;
-    background: url('/images/construction-icon.png') no-repeat;
+    background: url('/templates/Briarstone/images/construction-icon.png') no-repeat;
     margin-left: -52px;
     list-style-type: none;
     margin-top: -39px;
@@ -203,7 +203,7 @@ h3{
 
 #aboutthebuilder{
     padding-left: 0;
-    list-style-image: url('/images/builder-icon.png');
+    list-style-image: url('/templates/Briarstone/images/builder-icon.png');
     list-style-type: none;
     margin-top: -42px;
     margin-bottom: 0px;
