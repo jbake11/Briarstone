@@ -1,4 +1,41 @@
+<?php
+/**
+ * @package     Joomla.Site
+ * @subpackage  Templates.protostar
+ *
+ * @copyright   Copyright (C) 2005 - 2014 Open Source Matters, Inc. All rights reserved.
+ * @license     GNU General Public License version 2 or later; see LICENSE.txt
+ */
+defined('_JEXEC') or die;
 
+$app = JFactory::getApplication();
+$doc = JFactory::getDocument();
+$user = JFactory::getUser();
+$this->language = $doc->language;
+$this->direction = $doc->direction;
+
+// Getting params from template
+$params = $app->getTemplate(true)->params;
+
+// Detecting Active Variables
+$option = $app->input->getCmd('option', '');
+$view = $app->input->getCmd('view', '');
+$layout = $app->input->getCmd('layout', '');
+$task = $app->input->getCmd('task', '');
+$itemid = $app->input->getCmd('Itemid', '');
+$sitename = $app->get('sitename');
+
+
+// Add JavaScript Frameworks
+JHtml::_('bootstrap.framework');
+$doc->addScript('templates/' . $this->template . '/js/template.js');
+
+// Add Stylesheets
+$doc->addStyleSheet('templates/' . $this->template . '/css/template.css');
+
+// Load optional RTL Bootstrap CSS
+JHtml::_('bootstrap.loadCss', false, $this->direction);
+?>
 <!DOCTYPE html >
 <html>
     <head>
@@ -18,7 +55,7 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-        <link rel="stylesheet" href="templates/Briarstone/css/main.css" media="screen">
+        <link rel="stylesheet" href="templates/briarstone/css/main.css" media="screen">
 
     </head>
 
