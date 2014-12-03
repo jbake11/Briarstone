@@ -186,8 +186,7 @@ $sitename = $app->get('sitename');
                 <div class="col-lg-9 col-md-9 col-sm-9">
                     <h1>Knowledge. Equipment. Experience.</h1>
 
-                    <h3 class='textAdjust'>From single machining operations service to full manufacturing capabilities,
-                        you can count on Instrumental Machine & Development.</h3>
+                    <h3 class='textAdjust'>Bacon ipsum dolor amet prosciutto ham short loin beef ribs. Pork loin bacon ham shank, cupim filet mignon kevin tri-tip strip steak.</h3>
 
                     Bacon ipsum dolor amet prosciutto ham short loin beef ribs. Pork loin bacon ham shank, cupim filet mignon kevin tri-tip strip steak fatback tenderloin beef tongue doner. Ribeye ham hock pork belly, filet mignon turducken sirloin turkey bresaola. Shankle meatloaf beef ribs, hamburger turducken prosciutto cupim short ribs shoulder. Sirloin beef tenderloin cupim, bacon pig boudin.
 
@@ -207,19 +206,19 @@ $sitename = $app->get('sitename');
                     <ul>
                         <li id='equipment'><a href='equip.php'>Equipment</a></li>
                     </ul>
-                    IMD utilizes the latest technology for orthopedic tool production. We offer a full line of in-house production mills, lathes, metal markers, cutting equipment and finishers. If specialized tool applications are required, we have the resources to complete the job to your specifications and satisfaction.
+                    Bacon ipsum dolor amet prosciutto ham short loin beef ribs. Pork loin bacon ham shank, cupim filet mignon kevin tri-tip strip steak fatback tenderloin beef tongue doner. Ribeye ham hock pork belly, filet mignon turducken sirloin turkey bresaola. Shankle meatloaf beef ribs, hamburger turducken prosciutto cupim short ribs shoulder. Sirloin beef tenderloin cupim, bacon pig boudin.
                 </div>
                 <div class='col-sm-4'>
                     <ul>
                         <li id='products'><a href='photo.php'>Product Samples</a></li>
                     </ul>
-                    We've been supplying the orthopedic industry with surgical instrumentation since 1991. Over the years the surgical procedures have advanced and become less invasive thanks to the advancements in surgical instrument engineering and production processes. Visit our gallery of view the various tools we have produced.
+                    Bacon ipsum dolor amet prosciutto ham short loin beef ribs. Pork loin bacon ham shank, cupim filet mignon kevin tri-tip strip steak fatback tenderloin beef tongue doner. Ribeye ham hock pork belly, filet mignon turducken sirloin turkey bresaola. Shankle meatloaf beef ribs, hamburger turducken prosciutto cupim short ribs shoulder. Sirloin beef tenderloin cupim, bacon pig boudin.
                 </div>
                 <div class='col-sm-4'>
                     <ul>
                         <li id='employment'><a href='employ.php'>Employment</a></li>
                     </ul>
-                    IMD is an equal opportunity employer. We seek out candidates that share our vision for excellence and drive for customer satisfaction. If you would like to become part of the IMD family, please contact us for more information on available positions.
+                    Bacon ipsum dolor amet prosciutto ham short loin beef ribs. Pork loin bacon ham shank, cupim filet mignon kevin tri-tip strip steak fatback tenderloin beef tongue doner. Ribeye ham hock pork belly, filet mignon turducken sirloin turkey bresaola. Shankle meatloaf beef ribs, hamburger turducken prosciutto cupim short ribs shoulder. Sirloin beef tenderloin cupim, bacon pig boudin.
                 </div>
             </div>
         </div>
