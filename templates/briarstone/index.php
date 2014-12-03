@@ -52,10 +52,10 @@ $sitename = $app->get('sitename');
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-2 col-md-2 col-sm-6">
                     <jdoc:include type="modules" name="logo" style="xhtml" />
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-10 col-md-10 col-sm-6">
                     <jdoc:include type="modules" name="mainmenu" style="xhtml" />
                 </div>
             </div>
