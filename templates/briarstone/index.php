@@ -50,46 +50,26 @@ $sitename = $app->get('sitename');
 
     <body>
 
-
-        <!-- Fixed navbar -->
-        <div class="smNavAdjust hidden-lg hidden-md hidden-sm navbar navbar-default navbar-fixed-top" role="navigation">
-
-
-            <div class="container">
-                <div class="navbar-header">
-
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <div class="container">
-                        <a class="navbar-brand" href="/">
-
-                        </a>
-                    </div>
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="equip.php">Equipment & Services</a></li>
-                            <li><a href="history.php">History</a></li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="photo.php">Photo Gallery</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                            <li><a href="employ.php">Employment</a></li>
-                        </ul>
-                    </div><!--/.nav-collapse -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <jdoc:include type="modules" name="logo" style="xhtml" />
+                </div>
+                <div class="col-lg-9">
+                    <jdoc:include type="modules" name="mainmenu" style="xhtml" />
                 </div>
             </div>
         </div>
+
+
+
         <div id="bodywrap" class='container'>
             <div class='row'>
                 <div class='col-lg-12'>
 
 
-                    <jdoc:include type="modules" name="logo" style="xhtml" />
+                    <jdoc:include type="message" />
+                    <jdoc:include type="component" />
 
 
                 </div>
