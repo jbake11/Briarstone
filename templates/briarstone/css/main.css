@@ -157,12 +157,12 @@ h3{
 
 
 
-#services a{
+#residentialgallery a{
     vertical-align: super;
     margin-left: 53px;
 }
 
-#residentialgallery a{
+#services a{
     vertical-align: super;
     margin-left: 42px;
 }
@@ -172,18 +172,18 @@ h3{
     margin-left: -9px;
 }
 
-#services a:hover, #residentialgallery a:hover, #aboutthebuilder a:hover{
+#residentialgallery a:hover, #services a:hover, #aboutthebuilder a:hover{
     color: #167bbf
 
 }
 
-#services ul, #residentialgallery ul, #aboutthebuilder ul{
+#residentialgallery ul, #services ul, #aboutthebuilder ul{
     margin: 0;
     padding: 0;
 
 }
 
-#services{
+#residentialgallery{
     padding-left: 0;
     background: url('/templates/Briarstone/images/doorknocker-icon.png') no-repeat;
     margin-left: -39px;
@@ -192,7 +192,7 @@ h3{
     font-size: 2em;
 }
 
-#residentialgallery{
+#services{
     padding-left: 0;
     background: url('/templates/Briarstone/images/construction-icon.png') no-repeat;
     margin-left: -52px;
