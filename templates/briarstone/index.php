@@ -66,7 +66,7 @@ $sitename = $app->get('sitename');
                     </button>
                     <div class="container">
                         <a class="navbar-brand" href="/">
-                            <jdoc:include type="modules" name="logo" style="xhtml" />
+
                         </a>
                     </div>
                     <div class="navbar-collapse collapse">
@@ -89,7 +89,7 @@ $sitename = $app->get('sitename');
                 <div class='col-lg-12'>
 
 
-
+                    <jdoc:include type="modules" name="logo" style="xhtml" />
 
 
                 </div>
