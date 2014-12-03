@@ -93,13 +93,13 @@ $sitename = $app->get('sitename');
         <div class='container indexContent'>
             <div class='row'>
                 <div class='col-sm-4'>
-                    <jdoc:include type="modules" name="bottom-1" style="xhtml" />
+                    <jdoc:include type="modules" name="contentbottom-1" style="xhtml" />
                 </div>
                 <div class='col-sm-4'>
-                    <jdoc:include type="modules" name="bottom-2" style="xhtml" />
+                    <jdoc:include type="modules" name="contentbottom-2" style="xhtml" />
                 </div>
                 <div class='col-sm-4'>
-                    <jdoc:include type="modules" name="bottom-3" style="xhtml" />
+                    <jdoc:include type="modules" name="contentbottom-3" style="xhtml" />
                 </div>
             </div>
         </div>
