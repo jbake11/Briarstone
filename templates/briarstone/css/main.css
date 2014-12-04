@@ -95,8 +95,6 @@ a:active {
     white-space: nowrap;
 }
 
-
-
 li {
     /*    font-size: 18px;*/
 }
@@ -138,8 +136,6 @@ h1{
 }
 
 
-
-
 .hide-bullets {
     list-style:none;
     margin-left: -40px;
@@ -152,7 +148,10 @@ h1{
     margin-top: 20px;
 }
 
-
+.bottomTitle{
+    font-size: 2em;
+    margin-bottom: 2.5px;
+}
 
 #residentialgallery a{
     vertical-align: super;
