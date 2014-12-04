@@ -120,7 +120,6 @@ $sitename = $app->get('sitename');
                 <div class='col-lg-3 col-md-3 col-sm-6 col-xs-6'>
                     <jdoc:include type="modules" name="footer-3" style="xhtml" />
                 </div>
-
             </div>
         </div>
     </div>
