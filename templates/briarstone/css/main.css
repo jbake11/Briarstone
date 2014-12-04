@@ -261,8 +261,10 @@ h3{
 
 }
 
+
+
 @media (max-width: 767px) {
-    #equipment, #employment, #products{
+    #residentialgallery, #services, #aboutthebuilder{
         margin-top: 50px;
     }
 
