@@ -211,15 +211,15 @@ h3{
     font-size: 2em;
 }
 
-#footer{
-    horizontal-align: right;
-
-}
-
 #footer hr{
     margin-top: -2px;
     background-color: #b9ae76;
     height: 1px;
+}
+
+.foot-logo{
+    align: right;
+    margin-top: 5px;
 }
 
 .footText{
