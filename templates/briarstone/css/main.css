@@ -52,17 +52,15 @@ h3{
 
 }
 
-.menunav a{
+.nav-pills>li.active>a{
     margin-left: 30px;
     background-color: white;
     color:  black;
-
 }
 
-.menunav a:hover{
+.nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
     margin-left: 30px;
     color:  #b9ae76;
-
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img{
