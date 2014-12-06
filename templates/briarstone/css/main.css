@@ -103,10 +103,10 @@ li {
     text-align: center;
 }
 
-p {
+/*p {
     font-size: 25px;
 
-}
+}*/
 
 body {
     color: #676767;
@@ -245,7 +245,6 @@ h1{
 .footBadgeSpace{
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 .textPadding{
