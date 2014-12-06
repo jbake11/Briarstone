@@ -136,7 +136,10 @@ body {
     margin-right: 40px;
 }
 
+#navigation106 img{
+    display: none;
 
+}
 
 #residentialgallery a{
     vertical-align: super;
