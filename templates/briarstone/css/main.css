@@ -134,9 +134,7 @@ body {
 }
 
 #footer{
-    background: url('/images/footertool.png') no-repeat top right;
-    background-size: contain;
-    background-color: #167bbf;
+    background-color: #30579a;
     margin-top: 80px;
 }
 
