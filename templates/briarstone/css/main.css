@@ -67,6 +67,10 @@ h3{
     border-bottom: 1px #b9ae76 solid;
 }
 
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+    background-color: white;
+}
+
 .nav-pills>li.active>a{
     color: #b9ae76;
 }
