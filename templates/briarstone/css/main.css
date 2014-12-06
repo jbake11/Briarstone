@@ -40,7 +40,12 @@ h3{
 }
 
 
-
+.tittlebar h4{
+    Margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    font-size: 22px;
+}
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img{
     width: 100%;
