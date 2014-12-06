@@ -140,15 +140,15 @@ body {
 
 #residentialgallery a{
     vertical-align: super;
-    margin-left: 46px;
-
+    margin-left: 43px;
+    margin-top: -39px;
+    margin-bottom: -13px;
 }
 
 #services a{
     vertical-align: super;
     margin-left: 43px;
-    margin-top: -39px;
-    margin-bottom: -13px;
+
 }
 
 #aboutthebuilder a{
