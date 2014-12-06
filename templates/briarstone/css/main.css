@@ -28,6 +28,19 @@ a:active {
     color: #0000FF;
 }
 
+h2{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+h3{
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+
+
+
 .carousel-inner>.item>img, .carousel-inner>.item>a>img{
     width: 100%;
     /*    height: 100%;*/
