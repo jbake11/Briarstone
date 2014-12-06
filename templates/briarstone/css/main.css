@@ -48,12 +48,12 @@ h3{
 }
 
 .menunav{
-    margin-left: 30px;
+
 
 }
 
 .nav-pills>li.active>a{
-    margin-left: 30px;
+    margin-left: 16px;
     background-color: white;
     color:  black;
 }
