@@ -133,6 +133,13 @@ body {
     margin-left: 0px;
 }
 
+#footer{
+    background: url('/images/footertool.png') no-repeat top right;
+    background-size: contain;
+    background-color: #167bbf;
+    margin-top: 80px;
+}
+
 #footer hr{
     margin-top: -2px;
     background-color: #b9ae76;
