@@ -149,8 +149,7 @@ h1{
 }
 
 .bottomTitle{
-    font-size: 2em;
-    margin-bottom: 2.5px;
+
 }
 
 .bottomText{
@@ -161,16 +160,22 @@ h1{
 #residentialgallery a{
     vertical-align: super;
     margin-left: 53px;
+    font-size: 2em;
+    margin-bottom: 2.5px;
 }
 
 #services a{
     vertical-align: super;
     margin-left: 42px;
+    font-size: 2em;
+    margin-bottom: 2.5px;
 }
 
 #aboutthebuilder a{
     vertical-align: super;
     margin-left: -9px;
+    font-size: 2em;
+    margin-bottom: 2.5px;
 }
 
 #residentialgallery a:hover, #services a:hover, #aboutthebuilder a:hover{
