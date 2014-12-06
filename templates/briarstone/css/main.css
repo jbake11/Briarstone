@@ -59,7 +59,6 @@ h3{
 }
 
 .nav-pills>li>a:hover, .nav-pills>li>a:focus{
-    margin-left: 30px;
     background-color: white;
     color:  #b9ae76;
     border-bottom: #b9ae76;
@@ -67,6 +66,10 @@ h3{
     border-radius: 0;
     border-bottom: 1px #b9ae76 solid;
 
+}
+
+.nav-pills>li.active>a{
+    color: #b9ae76;
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img{
