@@ -8,10 +8,6 @@ and open the template in the editor.
     Author     : Jeff
 */
 
-.form{
-    margin-bottom:  10px;
-}
-
 a{
     color: #676767;
 }
@@ -61,63 +57,8 @@ a:active {
 
 }
 
-.transp{
-    z-index: 999;
-}
-
-#bodywrap{
-    padding-left: 0px;
-    padding-right: 0px;
-
-}
-
-
-.thumb-table{
-    display: table;
-
-}
-
-.thumb-wrap{
-    display: table-cell;
-    height: 200px;
-
-}
-
-.thumb-wrap img{
-    white-space: nowrap;
-    vertical-align: middle;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-.nwrap{
-    white-space: nowrap;
-}
-
-li {
-    /*    font-size: 18px;*/
-}
-
-.address {
-    text-align: center;
-}
-
-p {
-    font-size: 25px;
-
-}
-
 body {
     color: #676767;
-}
-
-h2{
-    font-size: 2em;
-}
-
-.textAdjust{
-    font-size: 16px;
 }
 
 .footerBar{
@@ -127,21 +68,10 @@ h2{
     padding-top: 10px;
 }
 
-.indexContent{
-    margin-top: 40px;
-}
-
-
 .hide-bullets {
     list-style:none;
     margin-left: -40px;
     margin-top:20px;
-}
-
-.gallery
-{
-    display: inline-block;
-    margin-top: 20px;
 }
 
 .bottomTitle{
@@ -175,6 +105,7 @@ h2{
 #residentialgallery ul, #services ul, #aboutthebuilder ul{
     margin: 0;
     padding: 0;
+
 }
 
 #residentialgallery{
@@ -254,157 +185,4 @@ h2{
 .underNavElse{
     padding-top: 15px;
 
-}
-
-
-
-@media (max-width: 767px) {
-    #residentialgallery, #services, #aboutthebuilder{
-        margin-top: 50px;
-    }
-
-    #footer{
-        background-color: #30579a;
-        margin-top: 80px;
-    }
-
-    #leftnav{
-        margin-bottom: 80px;
-        padding-left: 80px;
-    }
-
-    #centernav{
-        margin-bottom: 80px;
-        padding-left: 50px;
-    }
-
-    #rightnav{
-        margin-bottom: 80px;
-    }
-
-    .transp img{
-        z-index: 999;
-        padding-bottom: 50px;
-    }
-
-}
-
-@media (max-width: 992px) {
-
-    #leftnav li{
-        padding-bottom: 10px;
-    }
-    #centernav li{
-        padding-bottom: 10px;
-    }
-    #rightnav li{
-        padding-bottom: 10px;
-    }
-
-    #leftnav {
-        margin-top: 30px;
-
-    }
-
-    #centernav {
-        margin-top: 30px;
-
-    }
-
-    #rightnav {
-        margin-top: 30px;
-        margin-left: -50px;
-
-    }
-
-    #leftnav li, #rightnav li{
-        margin-left: 40px;
-    }
-
-    #equipAdjust{
-        margin-left: -10px;
-    }
-
-
-    #footer{
-        background-color: #30579a;
-        margin-top: 80px;
-    }
-
-    .arrangeThumbs img{
-        height: 85px;
-        width:  150px;
-
-    }
-
-}
-
-@media (min-width: 992px) {
-    #footer{
-        background-color: #30579a;
-        margin-top: 80px;
-    }
-
-    .arrangeThumbs{
-        margin-top: 50px;
-    }
-
-    .arrangeThumbs img{
-        height: 125px;
-        width:  190px;
-    }
-
-    #leftnav li{
-        margin-right: 31px;
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-    #rightnav li{
-        margin-left: 31px;
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-
-    #leftnav{
-        float: right;
-        margin-top: 110px;
-        margin-right: 31px;
-    }
-
-    #rightnav{
-        float: left;
-        margin-top: 110px;
-        margin-left: 31px;
-    }
-
-}
-
-@media(max-width: 1289px){
-    @media(min-width: 993px){
-        #leftnav li{
-            margin-right: 20px;
-            padding-right: 0px;
-            padding-left: 0px;
-        }
-
-        #rightnav li{
-            margin-left: 10px;
-            padding-right: 0px;
-            padding-left: 0px;
-        }
-
-        #leftnav{
-            float: right;
-            margin-top: 110px;
-            margin-right: 31px;
-        }
-
-        #rightnav{
-            float: left;
-            margin-top: 110px;
-            margin-left: 20px;
-        }
-
-    }
 }
