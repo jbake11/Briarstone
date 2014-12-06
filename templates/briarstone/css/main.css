@@ -228,10 +228,8 @@ body {
 .textPadding{
     margin-left: 20px;
 }
-.logoAdjust{
-    margin-top: -15px;
-    margin-left: -30px;
-
+.logoadjust{
+    margin-top: 8px;
 }
 
 .underNavIndex{
