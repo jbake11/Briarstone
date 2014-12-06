@@ -65,7 +65,7 @@ h3{
     border-bottom: #b9ae76;
     border-bottom-style: solid;
     border-radius: 0;
-    border-bottom: 1px #b9ae76 solid;
+    border-bottom: 2px #b9ae76 solid;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
