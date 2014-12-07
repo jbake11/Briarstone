@@ -1,11 +1,25 @@
 <div class="row">
-    <div class="col-lg-4">
-        <img class="img-responsive" src="/templates/Briarstone/images/drew.jpg" />
-        <br /><br />
-        <img class="img-responsive" src="/templates/Briarstone/images/bio_house.jpg" />
+    <div class="col-lg-6">
+        <h2>Services</h2>
+        <ul>
+            <li>Home plan design</li>
+            <li>New homes</li>
+            <li>Remodeling</li>
+            <li>Additions</li>
+            <li>Bathrooms</li>
+            <li>Kitchens</li>
+            <li>Finished basements</li>
+            <li>Walkout egress steps and windows</li>
+            <li>Exterior water infiltration (brick, wood shingles and flashing)</li>
+            <li>Insurance work (non emergency)</li>
+        </ul>
     </div>
-    <div class="col-lg-8">
-        <h2>About the Builder</h2>
-        Drew Duhn grew up in Beverly Hills, Michigan and graduated Birmingham Groves High School. He obtained the rank of Eagle Scout with the Boy Scouts of America. Drew graduated with a Bachelors Degree in Construction Management from Purdue University. After graduation from college he worked as a project manager for new home and condominium builders. Drew founded Briarstone Building in 1996. The company was founded to build homes from 2000 square feet to 5000 square feet. He has built homes in many areas across South Eastern Michigan such as; Northville, Novi, Canton, West Bloomfield, Sterling Heights, Troy, Franklin, and Wixom. Upon the demand of past clients who insisted that Drew finish their basement, he decided to branch out. Now Briarstone Building specializes in finished basements, renovations, and remodeling existing kitchens and bathrooms. Drew has over 19 years of experience, which encompasses many facets of the real estate industry. He is also a licensed Real Estate Broker in the State of Michigan. Drew has been married to Gabriella for 17 years and is father to Dominic (12) and Enzo (10).
+    <div class="col-lg-6">
+        Whether it is a new house, kitchen, basement, bathroom, or insurance repair.  Briarstone Building is able to handle all of your remodeling and new construction needs. From design phase to completion – Briarstone Building offers Turn Key construction. We are licensed and insured to handle any project. Briarstone Building will take your simple or complicated construction project and complete it in a fast, friendly, and competive manner. Our quality of construction and eye for detail always shows through when completed.
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        We also offer realty services to find the home that fits your lifestyle. Briarstone Realty, Inc. is a full service real estate company. We are able to find you a house or lot as a Buyer's Agent or sell your current home as a Seller's Agent.
     </div>
 </div>
