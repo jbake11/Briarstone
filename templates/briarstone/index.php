@@ -79,11 +79,11 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
     <div class="container indexContent">
         <div class="row">
             <?php if ($this->countModules('rightsidebar')) : ?>
-                <div class="col-lg-9 col-md-9 col-sm-9">
+                <div class="col-lg-8 col-md-8 col-sm-8">
                     <jdoc:include type="message" />
                     <jdoc:include type="component" />
                 </div>
-                <div class='col-lg-3 col-md-3 col-sm-3'>
+                <div class='col-lg-4 col-md-4 col-sm-4'>
                     <jdoc:include type="modules" name="rightsidebar" style="xhtml" />
                 </div>
             <?php else: ?>
