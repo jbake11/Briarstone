@@ -9,13 +9,13 @@ and open the template in the editor.
 */
 
 a{
-    color: #676767;
+    color: blue;
 }
 
 /* mouse over link */
 a:hover {
     text-decoration: none;
-    color: white;
+    color: #b9ae76;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
