@@ -8,6 +8,10 @@ and open the template in the editor.
     Author     : Jeff
 */
 
+a{
+    color: #000000;
+}
+
 /* mouse over link */
 a:hover {
     text-decoration: none;
@@ -156,7 +160,7 @@ body {
 }
 
 #residentialgallery a:hover, #services a:hover, #aboutthebuilder a:hover{
-    color: #167bbf
+    color: #b9ae76
 }
 
 #residentialgallery ul, #services ul, #aboutthebuilder ul{
