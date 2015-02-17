@@ -82,7 +82,6 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
                 <div class="col-lg-8 col-md-8 col-sm-8">
                     <jdoc:include type="message" />
                     <jdoc:include type="component" />
-                    <jdoc:include type="contact-form" />
                 </div>
                 <div class='col-lg-4 col-md-4 col-sm-4'>
                     <jdoc:include type="modules" name="rightsidebar" style="xhtml" />
