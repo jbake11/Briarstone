@@ -8,10 +8,6 @@ and open the template in the editor.
     Author     : Jeff
 */
 
-a{
-    color: #000000;
-}
-
 /* mouse over link */
 a:hover {
     text-decoration: none;
