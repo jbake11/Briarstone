@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-sm-12 col-md-12 col-lg-12 col-xs-12">
-        <h2>Contact Us</h2>
+        <a href="/briarstone-realty"><img src="images/realtor.jpg" alt="" /></a>
     </div>
 </div>
 <br />
@@ -17,7 +17,7 @@
         <p><b>Briarstone Building, Inc.</b></p>
         <p>46709 Merion Circle</p>
         <p>Northville, Michigan 48167</p>
-
+        <br />
         <p>Phone: 248.535.3838</p>
         <p>Fax: 248.692.0921</p>
         <p>Email: drew@briarstonebuilding.com</p>
