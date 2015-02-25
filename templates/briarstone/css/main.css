@@ -50,6 +50,10 @@ h3{
     font-size: 22px;
 }
 
+.nav-pills>li {
+    min-height: 42px;
+}
+
 .menunav{
     min-height: 42px;
 
