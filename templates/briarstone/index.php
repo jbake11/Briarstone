@@ -139,7 +139,7 @@ JHtml::_('bootstrap.loadCss', false, $this->direction);
                 &copy; <?php echo date('Y'); ?> Briarstone Building, Inc. All Rights Reserved.
             </div>
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6 nwrap pull-right">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 nwrap pull-right">
             <jdoc:include type="modules" name="socialbar" style="xhtml" />
         </div>
     </div>
