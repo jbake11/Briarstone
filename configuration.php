@@ -100,7 +100,7 @@ class JConfig {
     public $access = '1';
     public $dbtype = 'mysql';
     public $host = 'localhost';
-    public $user = 'briar3';
+    public $user = 'briar3_briar3';
     public $password = 'V]e&#4A$L7nT';
     public $db = 'briar3_briar3';
     public $dbprefix = 'netjv_';
