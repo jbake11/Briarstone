@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Briarstone Construction';
+	public $sitename = 'Briarstone Building, Inc.';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -46,8 +46,8 @@ class JConfig {
 	public $cache_handler = 'file';
 	public $debug = '0';
 	public $debug_lang = '0';
-	public $MetaDesc = 'Briarstone Construction';
-	public $MetaKeys = 'Briarstone Construction';
+	public $MetaDesc = 'Welcome to Briarstone Building, Inc. We specialize in new residential construction and remodeling. Located in Northville, Michigan.';
+	public $MetaKeys = 'briarstone, building, remodel, construction, contractor, additions, michigan, new, home, residential, builder, northville, floor plans, realty, realtor, kitchen, basement';
 	public $MetaTitle = '1';
 	public $MetaAuthor = '1';
 	public $MetaVersion = '0';
